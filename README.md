@@ -2,6 +2,15 @@
 
 * Inception-V3 - https://arxiv.org/abs/1512.00567
 * Inception-ResNet-V2 and Inception-V4 - https://arxiv.org/abs/1602.07261
+
+**Inception-ResNet-V2 What I learned**
+
+Inception-ResNet v2 is a deep neural network architecture that combines the Inception module with the ResNet skip-connections to address the issues of vanishing gradients in deep neural networks. This architecture was introduced by Szegedy et al. in 2016 and is considered one of the state-of-the-art models in image recognition and classification.
+
+The Inception-ResNet v2 architecture is a combination of the Inception v4 and ResNet architectures. It has a deep network architecture with 164 layers and has been trained on the ImageNet dataset with over one million image. The architecture uses the Inception module for feature extraction, which is a multi-scale convolutional network with parallel branches of convolutions of different sizes. This module enables the network to extract features at different scales and provides a way to reduce the number of parameters required for the network. also uses residual connections, which help to address the vanishing gradient problem in deep neural networks. These connections allow information to be passed through the network more easily by adding the output of one layer to the input of another. This technique helps to reduce the degradation problem, which occurs when the accuracy of a deep neural network starts to decrease as the network gets deeper.It uses batch normalization, which helps to improve the stability and speed of the training process. Batch normalization involves normalizing the inputs to each layer, which helps to reduce the internal covariate shift that occurs during training.Its trained on the ImageNet dataset, which is a large-scale dataset with over one million images. This dataset includes a wide range of object categories, such as animals, vehicles, and household items. 
+
+
+
 * All models have a consistent pretrained weight loader that adapts last linear if necessary, and from 3 to 1 channel input if desired
 ### Code
 The code here is licensed Apache 2.0. I've taken care to make sure any third party code included or adapted has compatible (permissive) licenses such as MIT, BSD, etc. I've made an effort to avoid any GPL / LGPL conflicts. That said, it is your responsibility to ensure you comply with licenses here and conditions of any dependent licenses. Where applicable, I've linked the sources/references for various components in docstrings. If you think I've missed anything please create an issue.
