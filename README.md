@@ -2,6 +2,8 @@
 
 * Inception-V3 - https://arxiv.org/abs/1512.00567
 * Inception-ResNet-V2 and Inception-V4 - https://arxiv.org/abs/1602.07261
+* Nasnet  https://arxiv.org/pdf/1707.07012.pdf
+* Xception https://arxiv.org/abs/1610.02357
 
 **Inception-ResNet-V2 What I learned**
 
