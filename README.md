@@ -1,4 +1,4 @@
-# Paper-Implementations-in-Deep-Learning
+# Paper-Implementations-in-Deep-Learning in Keras
 
 * Inception-V3 - https://arxiv.org/abs/1512.00567
 * Inception-ResNet-V2 and Inception-V4 - https://arxiv.org/abs/1602.07261
